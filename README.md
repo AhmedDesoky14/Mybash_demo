@@ -1,12 +1,12 @@
 # Mybash_demo
 Demo Bash, A Linux Shell
 **************************************************************************************
-Builtin Features:
-- echo command
-- type command
-- cd command
-- env command
-- history command
+Features:
+- builtin echo command
+- builtin type command
+- builtin cd command
+- builtin env command
+- builtin history command
 and all other programs in Linux paths
 - it supports adding and using local variables and environmental variables
 - it supports file redirectories
