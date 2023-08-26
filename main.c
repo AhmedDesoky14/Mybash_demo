@@ -88,7 +88,6 @@ int main(void)
         {
             exe_state = 1;
         }
-                        //printf("EXE:%s---%d",exe,exe_state);
         /*-----------------------------------------*/
         pid_t frk_ret_pid;                          /*fork return pid*/
         if(exe_state == 1)                          /*0 means ready to execute a program*/
