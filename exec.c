@@ -65,6 +65,10 @@ void Shell_Init(void)
     history = (char**)malloc(1*sizeof(char*));  /*Initial Value is 1*/
     history[0] = NULL;  /*Initially by NULL*/
     history_num = 0;
+    /*Setting error log file location*/
+    Err_Dir = malloc(CWD_INITIAL_SIZE*sizeof(char));
+    Err_Dir = getcwd(Err_Dir,CWD_INITIAL_SIZE);
+    strcat(Err_Dir,"/Err_Hist.txt");
 }
 /***********************************************************************************************************************************************
     Function Description:   Function used by main to add the command into history

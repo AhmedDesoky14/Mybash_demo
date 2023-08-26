@@ -34,7 +34,7 @@ void get_status(void)
     {
         Assign_Err(current_process_pid,current_process_id,GET_USERNAME_ERR);
     }
-    cwd = get_current_dir_name();
+    cwd = getcwd(cwd,CWD_INITIAL_SIZE);
     if(*cwd == '\0')
     {
         Assign_Err(current_process_pid,current_process_id,GET_CWD_ERR);

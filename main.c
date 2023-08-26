@@ -2,12 +2,13 @@
 *   Author: Ahmed Desoky
 *   Date:   8/8/2023
 *   Description:    main file for the bash
-*   Shell Version: 1.1.0
+*   Shell Version: 1.1.1
     Last edit: 26/8/2023
     *******************************************************************************
     * Last updates
     - history builtin command feature added
     - Redirectories fixed
+    - Error handler fixed
 */
 /*==========================================================================INCLUDES===================================================================================*/
 #include<sys/types.h>
@@ -31,6 +32,7 @@ unsigned int var_args_count;
 char* exe;
 char** history;
 unsigned int history_num;
+char* Err_Dir;
 pid_t current_process_id;
 pid_t current_process_pid;
 uid_t current_user_id;

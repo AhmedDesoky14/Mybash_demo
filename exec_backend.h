@@ -32,6 +32,7 @@ extern unsigned int var_args_count;
 extern char* exe;
 extern char** history;
 extern unsigned int history_num;
+extern char* Err_Dir;
 extern pid_t current_process_id;
 extern pid_t current_process_pid;
 extern uid_t current_user_id;

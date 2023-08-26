@@ -43,7 +43,7 @@ void Assign_Err(pid_t ppid, pid_t pid, int err_type)
             strcat(Err_str,"FAILED_CLOSE_DIR");
             break;
     }  
-    int fd_err = open("./Err_Hist.txt", O_RDWR|O_APPEND|O_CREAT,0775);
+    int fd_err = open(Err_Dir, O_RDWR|O_APPEND|O_CREAT,0775);
     if(fd_err < 0)
     {
         printf("Error Handler Fault - Failed to open errors record file");

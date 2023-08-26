@@ -15,8 +15,9 @@
 #define FAILED_CHANGE_DIR   8
 #define FAILED_CLOSE_FD     9
 #define FAILED_CHANGE_FD    10
-
-#define INITIAL_CWD_SIZE    100
+/*===========================================================================EXTERNS===================================================================================*/
+/*externed global variables defined in main.c*/
+extern char* Err_Dir;
 /*==========================================================================INCLUDES===================================================================================*/
 #include<unistd.h>
 #include<string.h>
