@@ -1,2 +1,21 @@
 # Mybash_demo
-Demo Bash, A Linux Shell, Implemented by myself
+Demo Bash, A Linux Shell
+**************************************************************************************
+Builtin Features:
+- echo command
+- type command
+- cd command
+- env command
+- history command
+and all other programs in Linux paths
+- it supports adding and using local variables and environmental variables
+- it supports file redirectories
+- it supports a simple code errorlog
+**************************************************************************************
+Project Outcomes:
+- Know more about bash commands and Linux Adminstration
+- Learn how to parse strings and deal proficiently with them
+- Get more experience dealing with pointers and understanding memory very well
+- Learn more system calls and system calls wrappers
+- Increasee problem solving skills
+- Learn more about file descriptors
