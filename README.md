@@ -1,5 +1,6 @@
 # Mybash_demo
 Demo Bash, A Linux Shell, Version 1.1.1
+under supervision of Eng. Reda Maher at STMicroelectronics
 **************************************************************************************
 Features:
 - builtin echo command
