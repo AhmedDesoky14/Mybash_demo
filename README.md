@@ -38,6 +38,8 @@ This project was developed as part of the **STMicroelectronics Internship Progra
 - Enhance problem-solving skills.
 - Learn about file descriptors and their usage in Linux programming.
 
+---
+
 ## How to Build
 
 1. Clone the repository:
